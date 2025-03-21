@@ -1,7 +1,3 @@
-package Clase4;
-
-import java.security.GeneralSecurityException;
-
 public class Ejecutar {
     public static void main(String[] args) {
         // forma 1
@@ -24,7 +20,7 @@ public class Ejecutar {
         System.out.println(objVehiculo.getMarca());
         objVehiculo.acelerar();
 
-        System.out.println(objVehiculo2, getMarca());
+        System.out.println(objVehiculo2.getMarca());
         objVehiculo2.frenar();
     }
 

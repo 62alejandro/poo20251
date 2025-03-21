@@ -1,5 +1,3 @@
-package Clase4;
-
 public class Vehiculo {
 
     // Atriutos de la clase
