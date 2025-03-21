@@ -1,7 +1,3 @@
-package Clase
-
-7;
-
 public class Trabajador {
     // atributos
     private int Trabajador;
@@ -18,24 +14,26 @@ public class Trabajador {
 
     // metodos getter
 
-    public int getidTrabajador (){
+    public int getidTrabajador() {
         return idtrabajador;
- 
+
     }
 
-    public String getNombre (){
+    public String getNombre() {
         return nombre;
     }
-    public String getNombre (){
-        return apellido ;
-    }
-  
-public double pagar (){
-    return 0.0;
-}
 
-public String toString() {
-    return "Trabajador { idTrabajador:" + idTrabajador +
-            " Nombre: " + nombre +
-            " Apellido: " + apellido + "}";
-}}
+    public String getNombre() {
+        return apellido;
+    }
+
+    public double pagar() {
+        return 0.0;
+    }
+
+    public String toString() {
+        return "Trabajador { idTrabajador:" + idTrabajador +
+                " Nombre: " + nombre +
+                " Apellido: " + apellido + "}";
+    }
+}
